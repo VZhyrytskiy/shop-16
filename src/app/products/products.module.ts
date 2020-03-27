@@ -13,7 +13,7 @@ import {ProductListComponent} from './components/product-list/product-list.compo
   exports: [
     FirstComponent,
     ProductListComponent,
-    ProductComponent
+    // ProductComponent не нужно делать публичным, он используется только в коспонентах текущего модуля
   ],
   imports: [
     CommonModule

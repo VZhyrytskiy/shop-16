@@ -11,7 +11,7 @@ import {SharedModule} from '../shared/shared.module';
   ],
   exports: [
     CartListComponent,
-    CartItemComponent
+    // CartItemComponent не надо делать публичным
   ],
   imports: [
     CommonModule,

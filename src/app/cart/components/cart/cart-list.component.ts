@@ -14,8 +14,8 @@ export class CartListComponent implements OnInit {
 
   constructor(public cartService: CartService) { }
 
-  onQtyChanged(event: Event) {
-    this.cartService.updateItem(event as any);
+  onQtyChanged(event: Event) { // зачем тут ставить тип
+    this.cartService.updateItem(event as any); // если тут приводить к any?
   }
 
   ngOnInit(): void {

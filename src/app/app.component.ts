@@ -10,7 +10,7 @@ export class AppComponent implements AfterViewChecked {
 
   @ViewChild('appTitle', {static: false})
   headerName: ElementRef;
-  firstComponent: FirstComponent;
+  firstComponent: FirstComponent;  // ?
   title = 'shop';
 
   ngAfterViewChecked(): void {
